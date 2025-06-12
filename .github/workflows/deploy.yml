@@ -29,6 +29,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
-          branch: gh-pages # Branch para deploy
+          branch: master # Branch principal para deploy direto
           folder: dist # Pasta que contém os arquivos de build
           clean: true # Limpa artefatos antigos
+          target-folder: . # Coloca os arquivos na raiz
