@@ -22,3 +22,5 @@ const CometTailDot: React.FC<CometTailDotProps> = ({ color, top, left, visible }
     />
   );
 };
+
+export default CometTailDot;
